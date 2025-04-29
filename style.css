@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --main-color: #0b9586;
+  --second-color: #ffbb1c;
+  --footer-color: #283646;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-bar {
+  padding: 16px 150px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.nav-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 157px;
+  height: 54px;
+  mix-blend-mode: multiply;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-item {
+  padding: 8px 28px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.nav-item-active {
+  padding: 8px 28px;
+  background: #0000000f;
+  border-bottom: 3px solid #0000004d;
+  border-radius: 5px;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  cursor: default;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.94px;
+}
+
+.nav-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-items: right;
+  justify-content: right;
+  gap: 8px;
+}
+
+.nav-contact-item-text h1 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.94px;
+}
+.nav-contact-item-number h1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.94px;
+}
