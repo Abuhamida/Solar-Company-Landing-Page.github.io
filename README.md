@@ -10,7 +10,6 @@ A modern and responsive landing page designed for a solar energy company. Built 
 
 ![Solar Company Landing Page Screenshot](https://raw.githubusercontent.com/Abuhamida/Solar-Company-Landing-Page.github.io/main/images/solar-preview.png)
 
-<!-- Make sure to place a screenshot named 'solar-preview.png' inside an 'assets' folder -->
 
 ---
 
